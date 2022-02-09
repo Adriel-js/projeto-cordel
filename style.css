@@ -40,6 +40,9 @@ a{
 a:hover{
     text-decoration: underline;
 }
+a::after{
+    content: '\00A0\1F517';
+}
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
