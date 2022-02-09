@@ -54,16 +54,30 @@ section.nomal{
 }   
 section.imagem{
     background-color: rgb(255, 0, 119);
-    color:beige
-}
-section.imagem > p {
-    background-color: rgba(49, 47, 47, 0.671);
-    display: inline-block;
-    padding: 10px;
+    color:beige;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.712);
+    background-attachment: fixed;
     
 }
+section.imagem > p {
+    background-color: rgba(49, 47, 47, 0.719);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+    background-image: url("imagens/background001.jpg");
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url("imagens/background002.jpg");
+    background-size: cover;
+}
+section > p{
+    padding-bottom: 1em;
 
-   
+}
 footer{
     background-color: black ;
     text-align: center;
